@@ -22,7 +22,7 @@
 
 | Parâmetro   | Tipo       | Descrição                                   |
 | :---------- | :--------- | :------------------------------------------ |
-| `id`      | `string` | **Obrigatório**. Código encurtado, redireciona de forma automática para o link |
+| `Code`      | `string` | **Obrigatório**. Código encurtado, redireciona de forma automática para o link |
 
 
 
