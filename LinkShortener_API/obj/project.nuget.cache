@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aKLUGZRpLdU=",
+  "dgSpecHash": "m4p9qodhsJE=",
   "success": true,
-  "projectFilePath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener.csproj",
+  "projectFilePath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_API\\LinkShortener.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\marcusk\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\marcusk\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

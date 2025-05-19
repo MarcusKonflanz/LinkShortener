@@ -34,15 +34,18 @@
             "description": "OK"
           }
         }
-      },
+      }
+    },
+    "/r/{code}": {
       "get": {
         "tags": [
           "Shortener"
         ],
         "parameters": [
           {
-            "name": "shortCode",
-            "in": "query",
+            "name": "code",
+            "in": "path",
+            "required": true,
             "schema": {
               "type": "string"
             }

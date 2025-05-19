@@ -1,8 +1,8 @@
 ﻿using LinkShortener.Services;
 using Microsoft.AspNetCore.Mvc;
 using LinkShortener.Data;
-using System.Threading.Tasks;
 using LinkShortener.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace LinkShortener.Controllers
 {
@@ -32,24 +32,26 @@ namespace LinkShortener.Controllers
                 Clics = 0
             };
 
-
             _context.ShortUrls.Add(entity);
             await _context.SaveChangesAsync();
 
-            var shortUrl = $"{Request.Scheme}://{Request.Host}/r/{code}";
-
-            return Ok(new { shortUrl });
+            var fullUrl = $"{Request.Scheme}://{Request.Host}/r/{code}";
+            return Ok(new { shortCode = code, fullUrl });
         }
 
-        [HttpGet]
-        public async Task<IActionResult> RedirectToOriginal(string shortCode)
+        [HttpGet("/r/{code}")]
+        public async Task<IActionResult> RedirectToOriginal(string code)
         {
-            var originalUrl = await _urlShortenerService.GetOriginalUrlAsync(shortCode);
+            var shortUrl = await _context.ShortUrls.FirstOrDefaultAsync(x => x.ShortCode == code);
 
-            if (originalUrl is null)
-                return NotFound();
+            if (shortUrl == null)
+                return NotFound("Código inválido.");
 
-            return Redirect(originalUrl);
+            // Incrementa os cliques
+            shortUrl.Clics++;
+            await _context.SaveChangesAsync();
+
+            return Redirect(shortUrl.OriginalUrl);
         }
 
     }

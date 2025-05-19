@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LinkShortener_Front")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+849c117fc2be5de006111aac3362a262d43df507")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d8b38ec366c6605c71855335c3ab529a7c4c1c04")]
 [assembly: System.Reflection.AssemblyProductAttribute("LinkShortener_Front")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LinkShortener_Front")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,4 +1,5 @@
 ﻿@page "/"
+@inject HttpClient Http
 
 <PageTitle>Link Shortener</PageTitle>
 
@@ -12,9 +13,19 @@
             <main>
                 <div>
                     <p>Insira o Link que você deseja encurtar: </p>
-                    <input type="text" placeholder="link original: " id="inputUrl" />
+                    <input @bind="originalUrl" type="text" placeholder="https://exemplo.com " id="inputUrl" />
                     <br />
-                    <button @onclick="() => ShortUrl(urlOrign)">Encurtar</button>
+                    <button @onclick="EncurtarLink">Converter</button>
+                </div>
+                <div>
+                    @if (!string.IsNullOrEmpty(shortenedUrl))
+                    {
+                        <p>
+                            Link encurtado:
+                            <a href="@shortenedUrl" target="_blank">@shortenedUrl</a>
+                            <button @onclick="CopiarLink">Copiar</button>
+                        </p>
+                    }
                 </div>
             </main>
         </div>
@@ -27,14 +38,34 @@
 </container>
 
 @code {
-    string urlOrign = string.Empty;
-    string urlShorted = string.Empty;
+    private string originalUrl;
+    private string shortenedUrl;
 
-
-    public string ShortUrl(string urlOrigin)
+    private class ShortenResponse
     {
-        return urlShorted;
+        public string ShortCode { get; set; } = string.Empty;
+        public string FullUrl { get; set; } = string.Empty;
     }
 
+    private async Task EncurtarLink()
+    {
+        if (string.IsNullOrWhiteSpace(originalUrl))
+            return;
 
+        var response = await Http.PostAsJsonAsync("api/shortUrl", originalUrl);
+        if (response.IsSuccessStatusCode)
+        {
+            var result = await response.Content.ReadFromJsonAsync<ShortenResponse>();
+            shortenedUrl = result!.FullUrl;
+        }
+    }
+
+    [Inject]
+    private IJSRuntime JS { get; set; } = default!;
+
+
+    private async Task CopiarLink()
+    {
+        await JS.InvokeVoidAsync("navigator.clipboard.writeText", shortenedUrl);
+    }
 }

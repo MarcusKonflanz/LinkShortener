@@ -1852,11 +1852,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\LinkShortener_Front.csproj",
+      "projectUniqueName": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\LinkShortener_Front.csproj",
       "projectName": "LinkShortener_Front",
-      "projectPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\LinkShortener_Front.csproj",
+      "projectPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\LinkShortener_Front.csproj",
       "packagesPath": "C:\\Users\\marcusk\\.nuget\\packages\\",
-      "outputPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\obj\\",
+      "outputPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

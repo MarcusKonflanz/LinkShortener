@@ -18,15 +18,15 @@
   {
     "ContainingType": "LinkShortener.Controllers.ShortenerController",
     "Method": "RedirectToOriginal",
-    "RelativePath": "api/shortUrl",
+    "RelativePath": "r/{code}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "shortCode",
+        "Name": "code",
         "Type": "System.String",
-        "IsRequired": false
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []

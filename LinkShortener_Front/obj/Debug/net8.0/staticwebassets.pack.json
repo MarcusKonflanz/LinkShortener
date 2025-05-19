@@ -1,31 +1,31 @@
 {
   "Files": [
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LinkShortener_Front.styles.css",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\scopedcss\\bundle\\LinkShortener_Front.styles.css",
       "PackagePath": "staticwebassets\\LinkShortener_Front.styles.css"
     },
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\wwwroot\\css\\app.css",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\wwwroot\\favicon.png",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\wwwroot\\icon-192.png",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\wwwroot\\index.html",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortnert_Front\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

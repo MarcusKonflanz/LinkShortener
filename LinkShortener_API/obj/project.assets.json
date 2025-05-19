@@ -5623,11 +5623,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener.csproj",
+      "projectUniqueName": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_API\\LinkShortener.csproj",
       "projectName": "LinkShortener",
-      "projectPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener.csproj",
+      "projectPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_API\\LinkShortener.csproj",
       "packagesPath": "C:\\Users\\marcusk\\.nuget\\packages\\",
-      "outputPath": "C:\\Libracom\\Blazor\\LinkShortener\\obj\\",
+      "outputPath": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
