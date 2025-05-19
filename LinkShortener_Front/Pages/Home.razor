@@ -1,0 +1,40 @@
+﻿@page "/"
+
+<PageTitle>Link Shortener</PageTitle>
+
+<container>
+    <body>
+        <div class="container">
+            <header class="header">
+                <h1>Encurtador de links</h1>
+                <p>Bem vindo ao meu site de conversão de links.</p>
+            </header>
+            <main>
+                <div>
+                    <p>Insira o Link que você deseja encurtar: </p>
+                    <input type="text" placeholder="link original: " id="inputUrl" />
+                    <br />
+                    <button @onclick="() => ShortUrl(urlOrign)">Encurtar</button>
+                </div>
+            </main>
+        </div>
+    </body>
+    <footer>
+        <div>
+            Aqui vão os complementos da página!
+        </div>
+    </footer>
+</container>
+
+@code {
+    string urlOrign = string.Empty;
+    string urlShorted = string.Empty;
+
+
+    public string ShortUrl(string urlOrigin)
+    {
+        return urlShorted;
+    }
+
+
+}

@@ -1,0 +1,60 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "LinkShortener",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/shortUrl": {
+      "post": {
+        "tags": [
+          "Shortener"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "string"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "Shortener"
+        ],
+        "parameters": [
+          {
+            "name": "shortCode",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}
