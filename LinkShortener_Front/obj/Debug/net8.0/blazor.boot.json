@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LinkShortener_Front",
   "resources": {
-    "hash": "sha256-6IoufjvKOG6A4wvpss/Ri9dVwkWGK9/CghITrHLymKg=",
+    "hash": "sha256-p65WArG2dh7Ur9EwB/OBUKmKlazuOwMS/gthG1VI9FA=",
     "jsModuleNative": {
       "dotnet.native.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -209,10 +209,10 @@
       "mscorlib.wasm": "sha256-BeLfFpg9iS3DkEdywsYY7sV6ML3knqkMaMq0JBEbWlw=",
       "netstandard.wasm": "sha256-VkjUtJ6DK5bFTc2JwwGHmQY3tBcNSC7zMSJXuiXcnJA=",
       "System.Private.CoreLib.wasm": "sha256-VIQEPUSb48N39LR+ncGDP5xU02xuRbyZU8MhMho26wQ=",
-      "LinkShortener_Front.wasm": "sha256-zeeCXPsJjsFI+VEGMvs+DenuAMG/wTHK49/6B3qnKGs="
+      "LinkShortener_Front.wasm": "sha256-Rr69gl9Bkwi72sI1VKdfCu/m6rjb2PlXGmwVx3ou0zE="
     },
     "pdb": {
-      "LinkShortener_Front.pdb": "sha256-WbZcd94HUlA8y8HiKVdfG4jnyO27ilA5k9s3w/HYMGA="
+      "LinkShortener_Front.pdb": "sha256-ap0nAR1DiO9FzJgTz50rfmQ7TZT9/ytTQPH8qPqrKXU="
     }
   },
   "cacheBootResources": true,

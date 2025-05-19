@@ -6,7 +6,7 @@
 <container>
     <body>
         <div class="container">
-            <header class="header">
+            <header>
                 <h1>Encurtador de links</h1>
                 <p>Bem vindo ao meu site de conversão de links.</p>
             </header>
@@ -14,7 +14,6 @@
                 <div>
                     <p>Insira o Link que você deseja encurtar: </p>
                     <input @bind="originalUrl" type="text" placeholder="https://exemplo.com " id="inputUrl" />
-                    <br />
                     <button @onclick="EncurtarLink">Converter</button>
                 </div>
                 <div>
@@ -30,11 +29,6 @@
             </main>
         </div>
     </body>
-    <footer>
-        <div>
-            Aqui vão os complementos da página!
-        </div>
-    </footer>
 </container>
 
 @code {
