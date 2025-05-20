@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "A+J/vdLQwA9S/gg7xWXABEKNQAgGcDmqe8lqgu8iwCI=",
+  "Hash": "l8H2+J2XvQICNaVanczv9PYKHxE2nNTXHvZCepENKLU=",
   "Source": "LinkShortener_Front",
   "BasePath": "/",
   "Mode": "Root",
@@ -31,8 +31,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "manifest",
-      "Fingerprint": "kyy3y6ecey",
-      "Integrity": "vO1NlblG3MgLLD8ezPZAFfXE+o6PsGS3Wi4s6usMSrQ=",
+      "Fingerprint": "6rkmboetyf",
+      "Integrity": "boIoS9ZtX7fycz6mXrswkmYJlTAqvZZIvxDXXufbggk=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\blazor.boot.json"
@@ -283,8 +283,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "symbol",
-      "Fingerprint": "ie2hvqhp0q",
-      "Integrity": "ap0nAR1DiO9FzJgTz50rfmQ7TZT9/ytTQPH8qPqrKXU=",
+      "Fingerprint": "ae18a83r5e",
+      "Integrity": "EhMGMwwaI8wszgXNsd+5GpSs5UOiyJRbiARthHBmcmo=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "obj\\Debug\\net8.0\\LinkShortener_Front.pdb"
@@ -304,8 +304,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "WasmResource",
       "AssetTraitValue": "runtime",
-      "Fingerprint": "ufo0m4uesv",
-      "Integrity": "Rr69gl9Bkwi72sI1VKdfCu/m6rjb2PlXGmwVx3ou0zE=",
+      "Fingerprint": "qsedw3171r",
+      "Integrity": "Kmg9IX6Bl2ANNHKdD3/DDGJgNuDcSjx1Il6jsfmNe/k=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\webcil\\LinkShortener_Front.wasm"
@@ -5225,7 +5225,7 @@
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Security.Principal.Windows.wasm"
     },
     {
-      "Identity": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\74pm3bvuyx-ie2hvqhp0q.gz",
+      "Identity": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\74pm3bvuyx-ae18a83r5e.gz",
       "SourceId": "LinkShortener_Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\",
@@ -5239,8 +5239,8 @@
       "RelatedAsset": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LinkShortener_Front.pdb",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "znfyfdpdms",
-      "Integrity": "zxZrNzjaAdw9PNQE3eFr1b96MO7GOEqgopvsmX4051g=",
+      "Fingerprint": "zcoyh5saln",
+      "Integrity": "09S29vsSbXQNtfNVAl5W3pT4NRIVlP/8SkqMljCaYIw=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LinkShortener_Front.pdb"
@@ -5540,7 +5540,7 @@
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.IO.MemoryMappedFiles.wasm"
     },
     {
-      "Identity": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\9xsz9rgode-kyy3y6ecey.gz",
+      "Identity": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\9xsz9rgode-6rkmboetyf.gz",
       "SourceId": "LinkShortener_Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\",
@@ -5554,8 +5554,8 @@
       "RelatedAsset": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zbqg4i7cdy",
-      "Integrity": "T2Xr7ntFwJQLD3N61vhW8+Sv47XmRduddDTWDojmFgo=",
+      "Fingerprint": "hoqx9lerio",
+      "Integrity": "UcKj7CIKTR9P46W0HRTpfKSAu5neRnR7azSjq75LWd4=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.boot.json"
@@ -6737,7 +6737,7 @@
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\System.Xml.XmlDocument.wasm"
     },
     {
-      "Identity": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\jine19aptw-ufo0m4uesv.gz",
+      "Identity": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\jine19aptw-qsedw3171r.gz",
       "SourceId": "LinkShortener_Front",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\",
@@ -6751,8 +6751,8 @@
       "RelatedAsset": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LinkShortener_Front.wasm",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jwe5irxbxa",
-      "Integrity": "Tbc4wjBGnZ+myVBTNNGPkEkYd6Qiz/nSKwIQldPG7AA=",
+      "Fingerprint": "peb5vohrqk",
+      "Integrity": "AXhIKNMp5pdu5iY8P/HP76VqEqsAHQrPfTuUyuz6vAM=",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\bin\\Debug\\net8.0\\wwwroot\\_framework\\LinkShortener_Front.wasm"
@@ -8683,8 +8683,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ex46x3d1j5",
-      "Integrity": "chsLuMZkY1FDl1KBUqAio72jam4JFLwL746NUU8bFIk=",
+      "Fingerprint": "f83f3gsmpw",
+      "Integrity": "HyH6ua/gdUYQCfqnJObCCSinsfWR9Zdao5RD+8eHYQI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\app.css"
@@ -8794,11 +8794,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vO1NlblG3MgLLD8ezPZAFfXE+o6PsGS3Wi4s6usMSrQ=\""
+          "Value": "\"boIoS9ZtX7fycz6mXrswkmYJlTAqvZZIvxDXXufbggk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:39:57 GMT"
+          "Value": "Tue, 20 May 2025 11:23:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8808,18 +8808,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vO1NlblG3MgLLD8ezPZAFfXE+o6PsGS3Wi4s6usMSrQ="
+          "Value": "sha256-boIoS9ZtX7fycz6mXrswkmYJlTAqvZZIvxDXXufbggk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json",
-      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\9xsz9rgode-kyy3y6ecey.gz",
+      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\9xsz9rgode-6rkmboetyf.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000113083795"
+          "Quality": "0.000113071009"
         }
       ],
       "ResponseHeaders": [
@@ -8829,15 +8829,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8842"
+          "Value": "8843"
         },
         {
           "Name": "ETag",
-          "Value": "\"T2Xr7ntFwJQLD3N61vhW8+Sv47XmRduddDTWDojmFgo=\""
+          "Value": "\"UcKj7CIKTR9P46W0HRTpfKSAu5neRnR7azSjq75LWd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:38:35 GMT"
+          "Value": "Tue, 20 May 2025 10:50:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8857,19 +8857,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"vO1NlblG3MgLLD8ezPZAFfXE+o6PsGS3Wi4s6usMSrQ=\""
+          "Value": "W/\"boIoS9ZtX7fycz6mXrswkmYJlTAqvZZIvxDXXufbggk=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vO1NlblG3MgLLD8ezPZAFfXE+o6PsGS3Wi4s6usMSrQ="
+          "Value": "sha256-boIoS9ZtX7fycz6mXrswkmYJlTAqvZZIvxDXXufbggk="
         }
       ]
     },
     {
       "Route": "_framework/blazor.boot.json.gz",
-      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\9xsz9rgode-kyy3y6ecey.gz",
+      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\9xsz9rgode-6rkmboetyf.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -8878,7 +8878,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "8842"
+          "Value": "8843"
         },
         {
           "Name": "Content-Type",
@@ -8886,11 +8886,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"T2Xr7ntFwJQLD3N61vhW8+Sv47XmRduddDTWDojmFgo=\""
+          "Value": "\"UcKj7CIKTR9P46W0HRTpfKSAu5neRnR7azSjq75LWd4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:38:35 GMT"
+          "Value": "Tue, 20 May 2025 10:50:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8908,7 +8908,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-T2Xr7ntFwJQLD3N61vhW8+Sv47XmRduddDTWDojmFgo="
+          "Value": "sha256-UcKj7CIKTR9P46W0HRTpfKSAu5neRnR7azSjq75LWd4="
         }
       ]
     },
@@ -10430,7 +10430,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "25248"
+          "Value": "25644"
         },
         {
           "Name": "Content-Type",
@@ -10438,11 +10438,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"ap0nAR1DiO9FzJgTz50rfmQ7TZT9/ytTQPH8qPqrKXU=\""
+          "Value": "\"EhMGMwwaI8wszgXNsd+5GpSs5UOiyJRbiARthHBmcmo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:39:56 GMT"
+          "Value": "Tue, 20 May 2025 11:23:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10452,18 +10452,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ap0nAR1DiO9FzJgTz50rfmQ7TZT9/ytTQPH8qPqrKXU="
+          "Value": "sha256-EhMGMwwaI8wszgXNsd+5GpSs5UOiyJRbiARthHBmcmo="
         }
       ]
     },
     {
       "Route": "_framework/LinkShortener_Front.pdb",
-      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\74pm3bvuyx-ie2hvqhp0q.gz",
+      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\74pm3bvuyx-ae18a83r5e.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000054647795"
+          "Quality": "0.000052689815"
         }
       ],
       "ResponseHeaders": [
@@ -10473,15 +10473,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18298"
+          "Value": "18978"
         },
         {
           "Name": "ETag",
-          "Value": "\"zxZrNzjaAdw9PNQE3eFr1b96MO7GOEqgopvsmX4051g=\""
+          "Value": "\"09S29vsSbXQNtfNVAl5W3pT4NRIVlP/8SkqMljCaYIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:38:34 GMT"
+          "Value": "Tue, 20 May 2025 10:50:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10501,19 +10501,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"ap0nAR1DiO9FzJgTz50rfmQ7TZT9/ytTQPH8qPqrKXU=\""
+          "Value": "W/\"EhMGMwwaI8wszgXNsd+5GpSs5UOiyJRbiARthHBmcmo=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-ap0nAR1DiO9FzJgTz50rfmQ7TZT9/ytTQPH8qPqrKXU="
+          "Value": "sha256-EhMGMwwaI8wszgXNsd+5GpSs5UOiyJRbiARthHBmcmo="
         }
       ]
     },
     {
       "Route": "_framework/LinkShortener_Front.pdb.gz",
-      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\74pm3bvuyx-ie2hvqhp0q.gz",
+      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\74pm3bvuyx-ae18a83r5e.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10522,7 +10522,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "18298"
+          "Value": "18978"
         },
         {
           "Name": "Content-Type",
@@ -10530,11 +10530,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"zxZrNzjaAdw9PNQE3eFr1b96MO7GOEqgopvsmX4051g=\""
+          "Value": "\"09S29vsSbXQNtfNVAl5W3pT4NRIVlP/8SkqMljCaYIw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:38:34 GMT"
+          "Value": "Tue, 20 May 2025 10:50:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10552,7 +10552,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-zxZrNzjaAdw9PNQE3eFr1b96MO7GOEqgopvsmX4051g="
+          "Value": "sha256-09S29vsSbXQNtfNVAl5W3pT4NRIVlP/8SkqMljCaYIw="
         }
       ]
     },
@@ -10567,7 +10567,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "23317"
+          "Value": "23829"
         },
         {
           "Name": "Content-Type",
@@ -10575,11 +10575,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Rr69gl9Bkwi72sI1VKdfCu/m6rjb2PlXGmwVx3ou0zE=\""
+          "Value": "\"Kmg9IX6Bl2ANNHKdD3/DDGJgNuDcSjx1Il6jsfmNe/k=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:39:57 GMT"
+          "Value": "Tue, 20 May 2025 11:23:44 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10589,18 +10589,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rr69gl9Bkwi72sI1VKdfCu/m6rjb2PlXGmwVx3ou0zE="
+          "Value": "sha256-Kmg9IX6Bl2ANNHKdD3/DDGJgNuDcSjx1Il6jsfmNe/k="
         }
       ]
     },
     {
       "Route": "_framework/LinkShortener_Front.wasm",
-      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\jine19aptw-ufo0m4uesv.gz",
+      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\jine19aptw-qsedw3171r.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000103327134"
+          "Quality": "0.000094437624"
         }
       ],
       "ResponseHeaders": [
@@ -10610,15 +10610,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9677"
+          "Value": "10588"
         },
         {
           "Name": "ETag",
-          "Value": "\"Tbc4wjBGnZ+myVBTNNGPkEkYd6Qiz/nSKwIQldPG7AA=\""
+          "Value": "\"AXhIKNMp5pdu5iY8P/HP76VqEqsAHQrPfTuUyuz6vAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:38:35 GMT"
+          "Value": "Tue, 20 May 2025 10:50:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10638,19 +10638,19 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"Rr69gl9Bkwi72sI1VKdfCu/m6rjb2PlXGmwVx3ou0zE=\""
+          "Value": "W/\"Kmg9IX6Bl2ANNHKdD3/DDGJgNuDcSjx1Il6jsfmNe/k=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Rr69gl9Bkwi72sI1VKdfCu/m6rjb2PlXGmwVx3ou0zE="
+          "Value": "sha256-Kmg9IX6Bl2ANNHKdD3/DDGJgNuDcSjx1Il6jsfmNe/k="
         }
       ]
     },
     {
       "Route": "_framework/LinkShortener_Front.wasm.gz",
-      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\jine19aptw-ufo0m4uesv.gz",
+      "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\obj\\Debug\\net8.0\\compressed\\jine19aptw-qsedw3171r.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -10659,7 +10659,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "9677"
+          "Value": "10588"
         },
         {
           "Name": "Content-Type",
@@ -10667,11 +10667,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Tbc4wjBGnZ+myVBTNNGPkEkYd6Qiz/nSKwIQldPG7AA=\""
+          "Value": "\"AXhIKNMp5pdu5iY8P/HP76VqEqsAHQrPfTuUyuz6vAM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:38:35 GMT"
+          "Value": "Tue, 20 May 2025 10:50:07 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -10689,7 +10689,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Tbc4wjBGnZ+myVBTNNGPkEkYd6Qiz/nSKwIQldPG7AA="
+          "Value": "sha256-AXhIKNMp5pdu5iY8P/HP76VqEqsAHQrPfTuUyuz6vAM="
         }
       ]
     },
@@ -36871,7 +36871,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4576"
+          "Value": "5407"
         },
         {
           "Name": "Content-Type",
@@ -36879,11 +36879,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"chsLuMZkY1FDl1KBUqAio72jam4JFLwL746NUU8bFIk=\""
+          "Value": "\"HyH6ua/gdUYQCfqnJObCCSinsfWR9Zdao5RD+8eHYQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:16:00 GMT"
+          "Value": "Tue, 20 May 2025 11:09:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36893,12 +36893,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-chsLuMZkY1FDl1KBUqAio72jam4JFLwL746NUU8bFIk="
+          "Value": "sha256-HyH6ua/gdUYQCfqnJObCCSinsfWR9Zdao5RD+8eHYQI="
         }
       ]
     },
     {
-      "Route": "css/app.ex46x3d1j5.css",
+      "Route": "css/app.f83f3gsmpw.css",
       "AssetFile": "C:\\Libracom\\Blazor\\LinkShortener\\LinkShortener_Front\\wwwroot\\css\\app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -36908,7 +36908,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4576"
+          "Value": "5407"
         },
         {
           "Name": "Content-Type",
@@ -36916,11 +36916,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"chsLuMZkY1FDl1KBUqAio72jam4JFLwL746NUU8bFIk=\""
+          "Value": "\"HyH6ua/gdUYQCfqnJObCCSinsfWR9Zdao5RD+8eHYQI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 19 May 2025 19:16:00 GMT"
+          "Value": "Tue, 20 May 2025 11:09:48 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -36930,7 +36930,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ex46x3d1j5"
+          "Value": "f83f3gsmpw"
         },
         {
           "Name": "label",
@@ -36938,7 +36938,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-chsLuMZkY1FDl1KBUqAio72jam4JFLwL746NUU8bFIk="
+          "Value": "sha256-HyH6ua/gdUYQCfqnJObCCSinsfWR9Zdao5RD+8eHYQI="
         }
       ]
     },

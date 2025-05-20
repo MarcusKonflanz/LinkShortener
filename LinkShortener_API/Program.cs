@@ -13,8 +13,15 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddScoped<UrlShortenerService>();
 
+//SQLSERVER
+//builder.Services.AddDbContext<AppDbContext>(options =>
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//SQLITE
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseSqlite("Data Source=shortener.db")); ;
+
+
 
 builder.Services.AddCors(options =>
 {

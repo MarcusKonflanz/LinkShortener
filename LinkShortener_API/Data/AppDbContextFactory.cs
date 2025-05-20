@@ -9,16 +9,8 @@ namespace LinkShortener.Data
     {
         public AppDbContext CreateDbContext(string[] args)
         {
-            // Carrega configuração manualmente do appsettings.json
-            var config = new ConfigurationBuilder()
-                .SetBasePath(Directory.GetCurrentDirectory())
-                .AddJsonFile("appsettings.json")
-                .Build();
-
             var optionsBuilder = new DbContextOptionsBuilder<AppDbContext>();
-            var connectionString = config.GetConnectionString("DefaultConnection");
-
-            optionsBuilder.UseSqlServer(connectionString);
+            optionsBuilder.UseSqlite("Data Source=shortener.db");
 
             return new AppDbContext(optionsBuilder.Options);
         }

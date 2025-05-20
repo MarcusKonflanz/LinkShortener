@@ -15,12 +15,12 @@ namespace LinkShortener.Migrations
                 name: "ShortUrls",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    OriginalUrl = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    ShortCode = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CreateAt = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Clics = table.Column<int>(type: "int", nullable: false)
+                    id = table.Column<int>(type: "INTEGER", nullable: false)
+                        .Annotation("Sqlite:Autoincrement", true),
+                    OriginalUrl = table.Column<string>(type: "TEXT", nullable: false),
+                    ShortCode = table.Column<string>(type: "TEXT", nullable: false),
+                    CreateAt = table.Column<DateTime>(type: "TEXT", nullable: false),
+                    Clics = table.Column<int>(type: "INTEGER", nullable: false)
                 },
                 constraints: table =>
                 {

@@ -1,39 +1,83 @@
 ﻿@page "/"
+@inject IJSRuntime JS
 @inject HttpClient Http
 
-<PageTitle>Link Shortener</PageTitle>
+<div class="btn-postion">
+    <button class="btn fade-in" @onclick="ToggleDarkMode">🌓 Tema</button>
+</div>
+<div class="container">
+    <h2 class="fade-in">Encurtador de links</h2>
+    <p class="fade-in">Insira o link que deseja encurtar:</p>
 
-<container>
-    <body>
-        <div class="container">
-            <header>
-                <h1>Encurtador de links</h1>
-                <p>Bem vindo ao meu site de conversão de links.</p>
-            </header>
-            <main>
-                <div>
-                    <p>Insira o Link que você deseja encurtar: </p>
-                    <input @bind="originalUrl" type="text" placeholder="https://exemplo.com " id="inputUrl" />
-                    <button @onclick="EncurtarLink">Converter</button>
-                </div>
-                <div>
-                    @if (!string.IsNullOrEmpty(shortenedUrl))
-                    {
-                        <p>
-                            Link encurtado:
-                            <a href="@shortenedUrl" target="_blank">@shortenedUrl</a>
-                            <button @onclick="CopiarLink">Copiar</button>
-                        </p>
-                    }
-                </div>
-            </main>
+    <input type="text" placeholder="https://..." @bind="originalUrl" @ref="inputRef" class="fade-in" />
+    <button class="btn fade-in" @onclick="EncurtarLink">Converter</button>
+
+    @if (!string.IsNullOrWhiteSpace(shortenedUrl))
+    {
+        <div class="link-section fade-in">
+            <p>Link encurtado: <a href="@shortenedUrl" target="_blank">@shortenedUrl</a></p>
+            <button class="btn" @onclick="CopiarLink">Copiar</button>
+            <div class="message">✅ Link encurtado com sucesso!</div>
         </div>
-    </body>
-</container>
+    }
+
+    @if (!string.IsNullOrWhiteSpace(errorMessage))
+    {
+        <div class="error fade-in">@errorMessage</div>
+    }
+</div>
 
 @code {
-    private string originalUrl;
-    private string shortenedUrl;
+    private string originalUrl = string.Empty;
+    private string shortenedUrl = string.Empty;
+    private string errorMessage = string.Empty;
+
+    private ElementReference inputRef;
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JS.InvokeVoidAsync("setTimeout", 100);
+            await JS.InvokeVoidAsync("eval", "document.querySelector('input').focus()");
+        }
+    }
+
+    private async Task EncurtarLink()
+    {
+        errorMessage = "";
+        shortenedUrl = "";
+
+        if (string.IsNullOrWhiteSpace(originalUrl))
+        {
+            errorMessage = "Por favor, insira uma URL válida.";
+            return;
+        }
+
+        try
+        {
+            var response = await Http.PostAsJsonAsync("api/shortUrl", originalUrl);
+            if (response.IsSuccessStatusCode)
+            {
+                var result = await response.Content.ReadFromJsonAsync<ShortenResponse>();
+                var baseUrl = Http.BaseAddress?.ToString().TrimEnd('/');
+                shortenedUrl = $"{baseUrl}/r/{result!.ShortCode}";
+            }
+            else
+            {
+                errorMessage = "Erro ao encurtar o link.";
+            }
+        }
+        catch (Exception)
+        {
+            errorMessage = "Erro inesperado. Verifique sua conexão ou tente novamente.";
+        }
+    }
+
+    private async Task CopiarLink()
+    {
+        await JS.InvokeVoidAsync("navigator.clipboard.writeText", shortenedUrl);
+    }
 
     private class ShortenResponse
     {
@@ -41,25 +85,11 @@
         public string FullUrl { get; set; } = string.Empty;
     }
 
-    private async Task EncurtarLink()
+    private async Task ToggleDarkMode()
     {
-        if (string.IsNullOrWhiteSpace(originalUrl))
-            return;
-
-        var response = await Http.PostAsJsonAsync("api/shortUrl", originalUrl);
-        if (response.IsSuccessStatusCode)
-        {
-            var result = await response.Content.ReadFromJsonAsync<ShortenResponse>();
-            shortenedUrl = result!.FullUrl;
-        }
-    }
-
-    [Inject]
-    private IJSRuntime JS { get; set; } = default!;
-
-
-    private async Task CopiarLink()
-    {
-        await JS.InvokeVoidAsync("navigator.clipboard.writeText", shortenedUrl);
+        await JS.InvokeVoidAsync("eval", @"
+        document.body.classList.toggle('dark-mode');
+        localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+    ");
     }
 }

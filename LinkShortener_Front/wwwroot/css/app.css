@@ -64,75 +64,127 @@ code {
     color: #c02d76;
 }
 
+:root {
+    --bg-color: #f0f0f0;
+    --text-color: #222;
+    --card-color: #fff;
+    --btn-color: #2c3e50;
+    --btn-text-color: #fff;
+}
+
+.dark-mode {
+    --bg-color: #1e1e1e;
+    --text-color: #f0f0f0;
+    --card-color: #2e2e2e;
+    --btn-color: #3498db;
+    --btn-text-color: #000;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 90vh;
-    margin: 0;
-    background-color: #86947A;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.4s, color 0.4s;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.name{
+    max-width: 250px;
+    text-align: center;
+    font-size: 0.8rem;
+
 }
 
 .container {
+    margin: 90px auto;
+    max-width: 600px;
+    padding: 30px;
+    background-color: var(--card-color);
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
     text-align: center;
-    background-color: #CBBBA7;
-    padding: 90px;
-    border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 800px;
-    height: 280px;
-    max-width: 1240px;
-    border: 2px solid #8B7D70;
+    animation: fadeInCard 0.8s ease-in-out;
 }
 
-header {
-    margin-top: -60px;
-}
-
-main{
-    margin: 35px;
-    align-items: center;
-}
-
-h1 {
-    color: #2C3B64;
-}
-
-p {
-    color: #331F19;
-    font-size: 1.1em;
-}
-
-input[type="text"] {
-    text-align: center;
+input[type=text] {
     padding: 10px;
-    width: 100%;
-    max-width: 550px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 2px solid #8B7D70;
-    border-radius: 5px;
-    font-size: 1em;
-    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
-    outline: none;
-    transition: border-color 0.3s ease;
+    width: 70%;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: all 0.3s;
 }
 
-    input[type="text"]:focus {
-        border-color: #2C3B64;
-        box-shadow: inset 0 2px 4px rgba(96, 4, 26, 0.3);
+    input[type=text]:focus {
+        outline: none;
+        border-color: #3498db;
     }
 
-button {
-    background-color: #2C3B64;
-    color: #F4F0EA;
-    padding: 10px 20px;
+.btn-postion {
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
     border: none;
-    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 8px;
     cursor: pointer;
-    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+.btn {
+    padding: 10px 16px;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
     transition: background-color 0.3s ease;
     margin-top: 10px;
-    margin-left: 10px;
+}
+
+    .btn:hover {
+        background-color: #1b2c3b;
+    }
+
+.link-section {
+    margin-top: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.message {
+    margin-top: 10px;
+    color: green;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+@keyframes fadeInCard {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
