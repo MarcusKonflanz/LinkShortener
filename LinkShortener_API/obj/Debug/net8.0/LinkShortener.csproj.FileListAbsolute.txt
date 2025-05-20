@@ -385,4 +385,3 @@ C:\Libracom\Blazor\LinkShortener\LinkShortener_API\obj\Debug\net8.0\refint\LinkS
 C:\Libracom\Blazor\LinkShortener\LinkShortener_API\obj\Debug\net8.0\LinkShortener.pdb
 C:\Libracom\Blazor\LinkShortener\LinkShortener_API\obj\Debug\net8.0\LinkShortener.genruntimeconfig.cache
 C:\Libracom\Blazor\LinkShortener\LinkShortener_API\obj\Debug\net8.0\ref\LinkShortener.dll
-C:\Libracom\Blazor\LinkShortener\LinkShortener_API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
