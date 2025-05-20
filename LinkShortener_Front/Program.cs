@@ -8,7 +8,8 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient
 {
-    BaseAddress = new Uri("http://localhost:5025/")
+    //BaseAddress = new Uri("http://localhost:5025/")
+    BaseAddress = new Uri("https://linkshortener-moh9.onrender.com")
 });
 
 await builder.Build().RunAsync();
